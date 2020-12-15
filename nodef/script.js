@@ -5,7 +5,7 @@
 // console.log(__dirname);
 
 // const c=require('./script2.js')
-import c from './script2.mjs';
+import c from './script2.js';
 
 const a=c;
 const b=4;
