@@ -4,8 +4,9 @@
 
 // console.log(__dirname);
 
-import large from 'script2';
-const a=large;
+const c=require('./script2.js')
+
+const a=c.large;
 const b=4;
 console.log(a+b);
 
