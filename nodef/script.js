@@ -6,8 +6,10 @@
 
 // const c=require('./script2.js')
 import c from './script2.js';
+import z from 'fs';
 
 const a=c;
 const b=4;
 console.log(a+b);
+// console.log(z);
 
