@@ -20,7 +20,7 @@ const app=express();
 app.get('/',(req,res)=>{
     res.send('major');
 });
-app.get('/profile',(req,res)=>{
+app.get('/profile',(res)=>{
     const user={
         name:'yash',
         hobby:'flirt',
